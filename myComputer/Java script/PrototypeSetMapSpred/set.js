@@ -40,7 +40,7 @@ console.log(mySet);
 // mySet.delete('some text')
 // console.log(mySet);
 
-// use entries
+// use entries sab double ho jat hai 
 const iterator1 = mySet.entries();
 // for(const entr of iterator1){
 //     console.log(entr);
