@@ -65,8 +65,7 @@ function countinuesly () {
 setInterval(countinuesly, 100)
 
 
-// only one time print 
+// only one time print setTimeout me 
 setTimeout(() => {
   console.log("o na ji na ");
 }, 100);
-
