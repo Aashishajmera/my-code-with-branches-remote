@@ -52,3 +52,4 @@ const output_value = anotherMap.values()
 for(const valuess of output_value){
     console.log(valuess);
 }
+
