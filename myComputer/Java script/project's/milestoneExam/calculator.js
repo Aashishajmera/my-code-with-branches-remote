@@ -1,9 +1,9 @@
 const prompt = require("prompt-sync")();
 const num1 = parseFloat(prompt("Enter frist number: "));
 const num2 = parseFloat(prompt("Enter second number: "));
-const quires = prompt("Enter Operator (+, -, *, /) ");
+const operator = prompt("Enter Operator (+, -, *, /) ");
 
-switch (quires) {
+switch (operator) {
   case "+":
     const add = num1 + num2;
     console.log(`${num1} and ${num2} addition is `,add);
