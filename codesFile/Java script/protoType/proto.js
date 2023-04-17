@@ -52,8 +52,8 @@ String.prototype.removeSpacePrintLength = function(){
     return result
 }
 
-// without space length print 
 
+// without space length print 
 let names = "Aashish    "
 console.log(names.removeSpacePrintLength());
 
