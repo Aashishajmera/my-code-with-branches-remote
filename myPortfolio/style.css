@@ -60,7 +60,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 13% 35%;
+    margin: 10% 35%;
     padding: 12px;
     line-height: 60px;
     font-size: 20px;
@@ -86,7 +86,7 @@ span{
 .left-section {
     display: flex;
     gap: 100px;
-    margin: 50px 0px;
+    margin: 45px 0px 15px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -139,4 +139,11 @@ button{
 
 button:hover{
     border: solid 1px black;
+}
+
+/* footer tag */
+
+footer{
+    display: flex;
+    justify-content: center;
 }
