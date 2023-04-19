@@ -58,44 +58,88 @@ var address = "Aamla";
 // Comparison Operator ( > greater than, < less than, == value compare, === value with data type compare)
 // logical and or (|| or, && and)
 
-
 // ______________________________________>>______________________________________>>____________________________________________
 // Revision class 2nd
 // ______________________________________>>______________________________________>>____________________________________________
 
-// Conditional 
+// Conditional
 const prompt = require("prompt-sync")();
 function testNum(a) {
-    let result;
-    if (a > 0) {
-      result = 'positive';
-    } else {
-      result = 'NOT positive';
-    }
-    return result;
+  let result;
+  if (a > 0) {
+    result = "positive";
+  } else {
+    result = "NOT positive";
   }
-  let input = prompt("Enter a number: ")
-  console.log(testNum(input));
+  return result;
+}
+let input = prompt("Enter a number: ");
+console.log(testNum(input));
 
 // _____________________________________>_____________________________________>___________________________________
 // Ternary
 const age = prompt("Enter your age: ");
 const beverage = age >= 21 ? "Beer" : "Juice";
-console.log(beverage); 
+console.log(beverage);
 
-// OR 
+// OR
 let login = true;
 login ? console.log("logout") : console.log("login");
 
-// OR 
-(2 == 2) ? console.log("yes") : console.log("no");
+// OR
+2 == 2 ? console.log("yes") : console.log("no");
 
 // _____________________________________>_____________________________________>___________________________________
 // SWITCH
 
-
+const day = parseInt(prompt("Enter a number: "));
+switch (day) {
+  case 1:
+    console.log("Sunday");
+    break;
+  case 2:
+    console.log("Monday");
+    break;
+  case 3:
+    console.log("Tuesday");
+    break;
+  case 4:
+    console.log("Wednesday");
+    break;
+  case 5:
+    console.log("Thursday");
+    break;
+  case 6:
+    console.log("Friday");
+    break;
+  case 7:
+    console.log("Saturday");
+    break;
+    default:
+      console.log("sorry case not found: ");
+}
 
 // _____________________________________>_____________________________________>___________________________________
 // lOOPS ITRESION AND ITRETOR
+// FOR LOOP 
+let array = [23, 5, 454, 6]
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  console.log(element);
+}
 
+// FOR OF 
 
+let obj2 = {name: "Aashish", surname: "Ajmera"}
+
+// for (let item of obj2) {
+//   console.log(item);
+// }
+
+// FOR IN 
+for (const key in object) {
+  if (Object.hasOwnProperty.call(object, key)) {
+    const element = object[key];
+    
+  }
+}
