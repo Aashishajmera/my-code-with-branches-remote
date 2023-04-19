@@ -58,5 +58,3 @@ let names = "Aashish    "
 console.log(names.removeSpacePrintLength());
 
 console.log("raja  ".removeSpacePrintLength());
-
-

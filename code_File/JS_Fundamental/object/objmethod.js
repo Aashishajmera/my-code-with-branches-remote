@@ -20,6 +20,7 @@ Object.values(obj);
 console.log(Object.values(obj));  //3rd varible se bhi kr sakte the 
 
 // if dono ko sath hi check krna hai to 
+console.log("_______________");
 console.log(Object.entries(obj));
 
 // other value ko add krne , update ,delete sabhi ko rokne ke lie 

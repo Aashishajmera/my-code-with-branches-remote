@@ -115,31 +115,49 @@ switch (day) {
   case 7:
     console.log("Saturday");
     break;
-    default:
-      console.log("sorry case not found: ");
+  default:
+    console.log("sorry case not found: ");
 }
 
 // _____________________________________>_____________________________________>___________________________________
 // lOOPS ITRESION AND ITRETOR
-// FOR LOOP 
-let array = [23, 5, 454, 6]
+
+// FOR LOOP
+let array = [23, 5, 454, 6];
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
   console.log(element);
 }
 
-// FOR OF 
-
-let obj2 = {name: "Aashish", surname: "Ajmera"}
-
-// for (let item of obj2) {
-//   console.log(item);
-// }
-
-// FOR IN 
-for (const key in object) {
-  if (Object.hasOwnProperty.call(object, key)) {
-    const element = object[key];
-    
-  }
+// FOR OF
+let arrr = [3, 4, 5, 6, 8];
+for (let item of arrr) {
+  console.log(item);
 }
+
+// FOR IN
+for (const index in arrr) {
+  const element = arrr[index];
+  console.log(index, element);
+}
+
+// FOR IN
+let obj2 = { name: "Aashish", surname: "Ajmera" };
+for (const key in obj2) {
+  const element = obj2[key];
+  console.log(key, ":", element);
+}
+
+// WHILE LOOP
+let i= 1;
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+
+// DO WHILE 
+let j = 1;
+do {
+  j += 1;
+  console.log(j);
+} while (j <= 20);
