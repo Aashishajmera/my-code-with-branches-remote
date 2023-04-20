@@ -1,3 +1,5 @@
+/* _________________________________________________ALL FILE _________________________________________________ */
+
 body {
     padding: 0;
     margin: 0;
@@ -44,15 +46,30 @@ nav ul li a:active{
 
 }
 
-
-/* main section */
-
 main{
     padding: 0px 12px; 
     margin: 12px 0px;
 
 }
 
+/* ______________________________________________CURRENT STUDY FILE_________________________________________ */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    margin: 8% 22%;
+    line-height: 45px;
+    font-size: 25px;
+    padding: 50px;
+    font-weight: 600;
+    background-color: #908080;
+    border-radius: 5px;
+    box-shadow:  15px 15px  rgb(225, 154, 11);
+}
+
+/* ______________________________________________CONTACT FILE_________________________________________ */
 
 .contact{
     display: flex;
@@ -73,6 +90,15 @@ main{
     /* box-shadow:rgb(21, 21, 21); */
 }
 
+/* ______________________________________________QUALIFICATION FILE_________________________________________ */
+
+/* .Qualification{
+    height: 525px;
+    width: 1250px;
+} */
+
+/* ______________________________________________MY INTRO FILE_________________________________________ */
+
 
 span{
     /* background-color: #5f9791; */
@@ -83,7 +109,7 @@ span{
     color: rgb(18, 104, 120);
 }
 
-.left-section {
+.main-section {
     display: flex;
     gap: 100px;
     margin: 45px 0px 15px 0px;
