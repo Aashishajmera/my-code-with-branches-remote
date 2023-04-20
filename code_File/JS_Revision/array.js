@@ -4,7 +4,7 @@
 
 let arr1 = [2, 5, 7, 8, "Aashu", 4.6, {address: "Khategaon"}]
 // OR
-let arr2 = new Array();
+let arr2 = new Array("raja ji");
 // ADD VALUE
 arr2.push(3, 5, 88, "anurag")  // last 
 arr2.unshift(99, 12, "Vivek")  // starting 
@@ -12,3 +12,16 @@ arr2.pop()  // Remove from the last
 arr2.shift()  // Remove from the beginning 
 console.log(arr1);
 console.log(arr2);
+arr2[1] = "Rohit"  // edit value 
+console.log(arr2);  
+console.log("The index is ",arr2.indexOf("Rohit"));   // ish value ka index kya hai ?
+console.log("The value is ", arr2.at(1));  // ish index ki value kya hai ?
+// CHANGING THE VALUE WITH THE HELP OF A LOOP
+for(let i = 0; i < arr1.length; i++){
+    if(arr1[i] == "Aashu"){
+        arr1[i] = "Rohit"
+    }
+}
+console.log(arr1);
+console.log(arr1.splice(2,1, 5));
+console.log(arr1);
