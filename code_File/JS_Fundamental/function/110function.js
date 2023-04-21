@@ -68,4 +68,3 @@ function array1([num1, num2]){
 // new one 
 let array_output_= [22,88];
 console.log(array1(array_output_));
-
