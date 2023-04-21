@@ -3,6 +3,8 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
     box-sizing: border-box;
     background-color: whitesmoke;
     font-family: 'Dela Gothic One', cursive;
