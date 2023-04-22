@@ -79,17 +79,14 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10% 35%;
+    margin: 10.3% 35%;
     padding: 12px;
     line-height: 60px;
     font-size: 20px;
-    /* border: 1px solid red; */
     background-color: #fff;
-    /* border: 1px solid rgb(0, 0, 0); */
     border-radius: 5px;
     box-shadow: 2px 2px 18px  rgb(0, 0, 0);
-    /* text-shadow: 10px 6px  rgb(229, 255, 0) ; */
-    /* box-shadow:rgb(21, 21, 21); */
+  
 }
 
 /* ______________________________________________QUALIFICATION FILE_________________________________________ */
@@ -113,10 +110,9 @@ span{
 
 .main-section {
     display: flex;
-    gap: 100px;
-    margin: 45px 0px 15px 0px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 53px 30px;
 }
 
 .intro {
@@ -174,4 +170,31 @@ button:hover{
 footer{
     display: flex;
     justify-content: center;
+}
+
+
+
+/* _________________________________________________________ RESPONSIVE CODE _________________________________________________ */
+
+/* _________________________________________________________MY INTRO FILE CODE_________________________________________________ */
+@media (max-width: 425px) {
+
+    body{
+        background-color: red;
+    }
+    /* header code file */
+    nav ul {
+        list-style: none;
+        /* display: flex; */
+        /* gap: 10px; */
+        font-size: 16px;
+    }
+    .main-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+
+    }
+
 }
