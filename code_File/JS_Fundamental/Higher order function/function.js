@@ -27,13 +27,13 @@ say_ouput();
 // learn to  Difficult higher function
 
 const HigherOrderFunction = (a) => {
-  const frist = (b, d) => {
+  const first = (b, d) => {
     const second = (c) => {
       return a + b * d + c;
     };
     return second;
   };
-  return frist;
+  return first;
 };
 
 // nested function ko ese call krte hai
@@ -66,6 +66,7 @@ setInterval(countinuesly, 100)
 
 
 // only one time print setTimeout me 
+
 setTimeout(() => {
   console.log("o na ji na ");
 }, 100);

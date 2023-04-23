@@ -1,6 +1,6 @@
 // object creating
 
-// frist and simple way to declare object 
+// first and simple way to declare object 
 let obj = { id: 1 , name: "Aashish", salary: 120000}
 obj.address = "Aamla"
 console.log(obj);

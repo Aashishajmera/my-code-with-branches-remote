@@ -23,7 +23,7 @@ printName()
 // NESTED FUNCTION 
 
 const defaultValue = "I am default"
-function fristFun() {
+function firstFun() {
     let val1 = 1
     console.log(val1, defaultValue);
     function secondFun(){
@@ -37,4 +37,4 @@ function fristFun() {
     }
     secondFun()
 }
-fristFun()
+firstFun()

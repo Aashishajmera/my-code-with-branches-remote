@@ -9,15 +9,15 @@ function printName(){
 }
 
 setTimeout(() => {
-    console.log("2 second: ");
+    console.log("4 second: ");
 }, 4000);
 
-for(let i = 0; i <= 1000; i++){
+for(let i = 0; i <= 1; i++){
     console.log(i);
 }
 
 setTimeout(() => {
-    console.log("1 ");
+    console.log("1");
 }, 1);
 
 

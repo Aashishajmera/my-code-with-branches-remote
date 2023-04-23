@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-let color = prompt("Enter Frist color: ");
+let color = prompt("Enter first color: ");
 color = prompt("Enter Second color: ");
 switch (color) {
   case "red":

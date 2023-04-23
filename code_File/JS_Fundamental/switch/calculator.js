@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-const num1 = parseFloat(prompt("Enter frist number: "));
+const num1 = parseFloat(prompt("Enter first number: "));
 const num2 = parseFloat(prompt("Enter second number: "));
 const quires = prompt("Enter Operator (+, -, *, /) ");
 

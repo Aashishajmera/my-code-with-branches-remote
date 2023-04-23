@@ -5,7 +5,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color: whitesmoke;
     font-family: 'Dela Gothic One', cursive;
     font-family: 'Inconsolata', monospace;
@@ -16,41 +16,38 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    /* background-color: rgb(126, 63, 35); */
-    padding: 0px 12px; 
-    margin: 12px 0px;
+    /* padding: .0rem 1.2rem; */
+    margin: 1.2rem .0rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 70px;
-    font-size: 16px;
+    gap: 7.0rem;
+    font-size: 1.6rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 800;
-        }
+}
 
-nav ul li a:hover {
-    /* position: relative;
-    bottom: 5px; */
+/* nav ul li a:hover {
     font-weight: 900;
     color: rgb(0, 64, 255);
-    border-radius: 22px;
+    border-radius: 2.2rem;
     text-decoration: underline;
 }
 
-nav ul li a:active{
+nav ul li a:active {
     color: rgb(255, 0, 0);
 
-}
+} */
 
-main{
-    padding: 0px 12px; 
-    margin: 12px 0px;
+main {
+    padding: .0rem 1.2rem;
+    margin: 1.2rem .0rem;
 
 }
 
@@ -60,50 +57,50 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;  
+    text-align: center;
     margin: 8% 22%;
-    line-height: 45px;
-    font-size: 25px;
-    padding: 50px;
+    line-height: 4.5rem;
+    font-size: 2.5rem;
+    padding: 5.0rem;
     font-weight: 600;
     background-color: #908080;
-    border-radius: 5px;
-    box-shadow:  15px 15px  rgb(225, 154, 11);
+    border-radius: .5rem;
+    box-shadow: 1.5rem 1.5rem rgb(225, 154, 11);
 }
 
 /* ______________________________________________CONTACT FILE_________________________________________ */
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 10.3% 35%;
-    padding: 12px;
-    line-height: 60px;
-    font-size: 20px;
+    padding: 1.2rem;
+    line-height: 6.0rem;
+    font-size: 2rem;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 2px 2px 18px  rgb(0, 0, 0);
-  
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem 1.8rem rgb(0, 0, 0);
+
 }
 
 /* ______________________________________________QUALIFICATION FILE_________________________________________ */
 
 /* .Qualification{
-    height: 525px;
-    width: 1250px;
+    height: 525rem;
+    width: 1250rem;
 } */
 
 /* ______________________________________________MY INTRO FILE_________________________________________ */
 
 
-span{
+span {
     /* background-color: #5f9791; */
-    padding: 5px ;
-    border-radius: 12px;
-    font-size: 36px;
+    padding: .5rem;
+    border-radius: 1.2rem;
+    font-size: 3.6rem;
     font-weight: 600;
     color: rgb(18, 104, 120);
 }
@@ -112,11 +109,11 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 53px 30px;
+    margin: 5.3rem 3.0rem;
 }
 
 .intro {
-    font-size: 30px;
+    font-size: 3.0rem;
 
 }
 
@@ -124,50 +121,49 @@ span{
 /* right section */
 
 
-.pic ul{
+.pic ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-.pic img{
-    border-radius: 200px;
+.pic img {
+    border-radius: 20.0rem;
 }
 
-i{
-    width: 22px;
-    height: 33px;
+i {
+    width: 2.2rem;
+    height: 3.3rem;
 }
 
-.connect{
+.connect {
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: rgb(0, 0, 0);
-    /* background-color: antiquewhite; */
     font-weight: 900;
     background-color: rgb(79, 159, 154);
     color: rgb(255, 255, 255);
-    border-radius: 22px;
-    padding: 10px 4px;
-    word-spacing: 4px;
+    border-radius: 22rem;
+    padding: 1rem .4rem;
+    word-spacing: .4rem;
 }
 
-button{
-    padding: 5px 23px;
+button {
+    padding: .5rem 2.3rem;
     cursor: pointer;
-    font-size: 16px;
-    border: solid white 1px;
-    border-radius: 5px;
+    font-size: 1.6rem;
+    border: solid white .1rem;
+    border-radius: .5rem;
 }
 
-button:hover{
-    border: solid 1px black;
+button:hover {
+    border: solid .1rem black;
 }
 
 /* footer tag */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
 }
@@ -177,24 +173,38 @@ footer{
 /* _________________________________________________________ RESPONSIVE CODE _________________________________________________ */
 
 /* _________________________________________________________MY INTRO FILE CODE_________________________________________________ */
-@media (max-width: 425px) {
+@media (max-width: 600px) {
 
-    body{
-        background-color: red;
+    html {
+        font-size: 33%;
     }
-    /* header code file */
-    nav ul {
-        list-style: none;
-        /* display: flex; */
-        /* gap: 10px; */
-        font-size: 16px;
-    }
+
     .main-section {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap-reverse;
-
     }
 
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: .0rem 1.2rem;
+        margin: 1.2rem .0rem;
+        flex-shrink: inherit;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 7.0rem;
+        font-size: 1.6rem;
+    }
+}
+
+/* _____________________________________________________________________________________________________________ */
+
+html {
+    font-size: 62.5%;
 }
