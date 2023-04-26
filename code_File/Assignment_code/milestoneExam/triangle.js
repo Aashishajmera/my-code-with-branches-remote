@@ -1,8 +1,8 @@
 const prompt = require("prompt-sync")();
 let num = prompt("Enter number: ")
 
-for(let i = num; i >= 1; i--){
-    for(let j = 1; j <= i; j++){
+for(let row = num; row >= 1; row--){
+    for(let col = 1; col <= row; col++){
         console.log("*");
     }
     console.log("\n");

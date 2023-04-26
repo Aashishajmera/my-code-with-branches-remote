@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow and zIndex</title>
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        /* overflow hidden  */
+
+        p {
+            height: 25.0rem;
+            width: 25.6rem;
+            border: solid red 1px;
+            font-size: medium;
+            overflow: auto;
+        }
+
+        /* z index  */
+        .one {
+            height: 14.0rem;
+            width: 14.0rem;
+            background-color: blue;
+            border: orange solid 2px;
+            position: absolute;
+            top: 0rem;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- overflow -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores optio quaerat quo voluptate laboriosam!
+        Quisquam laboriosam, possimus quis repellat eos magnam obcaecati itaque, porro rem ea reiciendis dignissimos
+        consequatur nihil hic cumque, numquam cupiditate quod dicta ab id accusamus fugiat ex laborum? Rem laboriosam
+        iste est eum fuga natus hic sunt, quos porro suscipit consequuntur, nulla, perferendis atque. Fugit molestiae
+        ad, quia pariatur odit tempora nesciunt quod omnis excepturi dolore, repellendus totam quae iste fuga. Quisquam
+        accusantium, praesentium reprehenderit officia excepturi fuga nisi maxime ea, delectus repellat, harum non ad.
+        Exercitationem atque pariatur architecto eaque consequatur quasi adipisci error quod.</p>
+
+    <div class="one"></div>
+</body>
+
+</html>
