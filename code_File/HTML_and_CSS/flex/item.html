@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>item properties</title>
+    <!-- link css -->
+    <style>
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            border: solid red 3px;
+        }
+
+        .box {
+            height: 7rem;
+            width: 7rem;
+            height: 20.0rem;
+            width: 20.0rem;
+            border: solid black 2px;
+            text-align: center;
+        }
+
+        .one {
+            background-color: red;
+            display: flex;
+            /* order: 3; */
+            /* flex-grow: 4; */
+            /* flex-shrink: 4; */
+        }
+
+        .two {
+            background-color: rgb(119, 255, 0);
+            /* order: 2; */
+            /* flex-grow: 3; */
+            /* flex-shrink: 2; */
+            /* align-self: flex-end; */
+        }
+
+        .three {
+            background-color: blue;
+            /* order: 9; */
+            /* flex-grow: 2; */
+            /* flex-shrink: 5; */
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <main class="container">
+        <div class="box one">one</div>
+        <div class="box two">two</div>
+        <div class="box three">three</div>
+    </main>
+</body>
+
+</html>
