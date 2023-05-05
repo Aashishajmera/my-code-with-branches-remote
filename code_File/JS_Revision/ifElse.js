@@ -1,5 +1,4 @@
 // IF ELSE 
-
 const prompt = require("prompt-sync")();
 let star = parseInt(prompt("Enter rating: "));
 if (star >= 5) {
