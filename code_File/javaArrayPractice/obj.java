@@ -2,9 +2,15 @@ package code_File.javaArrayPractice;
 
 public class obj {
 
-    public static void main(String[] args) {
+    int rollNum = 1;
+    String name = "Aashish";
 
-        car();
+    public static void main(String[] args) {
+// create a object in obj class 
+
+obj obj1 = new obj();
+System.out.println(obj1.rollNum);
+        // car();
 
     }
   public static  void car() {
