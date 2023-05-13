@@ -8,22 +8,24 @@ public class prime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number: ");
         int num = sc.nextInt();
-        if (num < 0) {
-            System.out.println("given number is negative: ");
-        }
+        int count = 0;
+        // if (num < 0) {
+        //     System.out.println("given number is negative: ");
+        // }
 
-        for (int i = 2; i <= num; i++) {
+        for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
-                System.out.println("given number is not a prime number because its devisible by :"+ i);
-            }else{
-                System.out.println("given number is prime number: ");
-
+                count++;
             }
+        }
+        if (count == 2 && num > 0) {
+            System.out.println("given number is prime number: ");
+        } else {
+            System.out.println("given number is not a prime number: ");
         }
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Prime();
     }
 }

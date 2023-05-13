@@ -2,8 +2,8 @@ package code_File.collegeAssignment;
 
 import java.util.Scanner;
 
-public class fectorial {
-    public static void fecto() {
+public class factorial {
+    public static void facto() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
@@ -13,11 +13,11 @@ public class fectorial {
             sum += i;
             System.out.println(sum);
         }
-        System.out.println(num + " Fectorial is " + sum);
+        System.out.println(num + " Factorial is " + sum);
 
     }
 
     public static void main(String[] args) {
-        fecto();
+        facto();
     }
 }
